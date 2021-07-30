@@ -3,3 +3,38 @@
     margin: 0;
     padding: 0;
 }
+header {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1000px;
+    min-height: 50px;
+    background-color: rgb(55, 111, 233);
+    font-family: Arial, Helvetica, sans-serif;
+    color: cornsilk;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    .logo {
+        font-family: fantasy;
+        font-size: 30px;
+        margin-left: 10px;
+    }
+}
+nav {
+    ul {
+        font-weight: solid;
+    }
+    li {
+        list-style-type: none;
+        display: inline-block;
+        margin: 5px;
+    }
+    a {
+        text-decoration: none;
+        color: cornsilk;
+    }
+    a:hover {
+        text-decoration: underline;
+        color: rgb(236, 233, 29);
+    }
+}
