@@ -8,7 +8,7 @@ header {
     margin: 0 auto;
     max-width: 1000px;
     min-height: 50px;
-    background-color: rgb(55, 111, 233);
+    background-color: rgb(233, 55, 153);
     font-family: Arial, Helvetica, sans-serif;
     color: cornsilk;
     justify-content: space-between;
@@ -47,4 +47,33 @@ main {
         font-family: fantasy;
         color: #ffffff;
     }
+    section {
+        display: grid;
+        max-width: 1000px;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 250px) ;
+        grid-gap: 3px;
+        padding: 3px;
+        div {
+            background-color: rgba(76, 0, 130, .2);
+            min-height: 500px;
+        }
+    }
+   
+}
+.block-1 {
+    background-image: url('./img/01.jpg');
+    background-size: cover;
+}
+.block-2 {
+    background-image: url('./img/02.jpg');
+    background-size: cover;
+}
+.block-3 {
+    background-image: url('./img/03.jpg');
+    background-size: cover;
+}
+.block-4 {
+    background-image: url('./img/04.jpg');
+    background-size: cover;
 }
