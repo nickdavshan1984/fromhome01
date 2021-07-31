@@ -49,4 +49,16 @@ nav a:hover {
   text-decoration: underline;
   color: #ece91d;
 }
+
+main {
+  max-width: 1000px;
+  background-color: hotpink;
+  margin: 0 auto;
+}
+
+main h1 {
+  text-align: center;
+  font-family: fantasy;
+  color: #ffffff;
+}
 /*# sourceMappingURL=style.css.map */
